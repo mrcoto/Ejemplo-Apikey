@@ -24,7 +24,7 @@ El comando anterior genera una **apikey**, puedes corroborarlo en la base de dat
 Ahora, suponga que el cliente debe hacerle una petición a la ruta `api/protegido` (mediante apikey),
 Debe enviar la cabecera de la siguiente forma:
 
-`Authorization Basic base64encode(clientId + ":" + clientSecret)
+`Authorization Basic base64encode(clientId + ":" + clientSecret)`
 
 Debiese enviar lo mismo que se imprime en `crear-apikey.js` Ejemplo en Postman:
 
